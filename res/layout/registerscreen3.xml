@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_first_screen"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wrapp.example.floatlabelededittext.MainActivity">
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+		<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+        <EditText
+            android:id="@+id/reg_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/btn_login_bg"
+            android:hint="Contact"
+            android:inputType="text|phone"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+            />
+		</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+		
+		<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+        <EditText
+            android:id="@+id/reg_country"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/btn_login_bg"
+            android:hint="Country"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+		</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+		<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+        <EditText
+            android:id="@+id/reg_state"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/btn_login_bg"
+            android:hint="State"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+        <!-- Login Button -->
+		</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+		<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+		<EditText
+            android:id="@+id/reg_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/btn_login_bg"
+            android:hint="City"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+		</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+		<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+		<EditText
+            android:id="@+id/reg_address"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/btn_login_bg"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+		</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <Button
+            android:id="@+id/next3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Next"
+            android:textColor="@color/btn_login" />
+    
+    
+
+	</LinearLayout>
+</LinearLayout>
