@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bloodbank.slidingmenu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="com.bloodbank.slidingmenu.permission.MAPS_RECEIVE" />
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ 
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+ 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+       	android:name="com.bloodbank.slidingmenu.AppController"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name="com.bloodbank.slidingmenu.SplashScreenActivity"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.bloodbank.slidingmenu.HomeActivity"
+            android:label="@string/app_name" >
+         </activity>
+        
+        <activity
+            android:name="com.bloodbank.slidingmenu.RegisterActivity1"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="com.bloodbank.slidingmenu.RegisterActivity2"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="com.bloodbank.slidingmenu.RegisterActivity3"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="com.bloodbank.slidingmenu.RegisterActivity4"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="com.bloodbank.slidingmenu.RegisterActivity"
+            android:label="@string/app_name" >
+         </activity>
+         
+          <activity
+            android:name="com.bloodbank.slidingmenu.LogInActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="com.bloodbank.slidingmenu.MainActivity1"
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="stateHidden">
+         </activity>
+         <meta-data android:name="com.google.android.gms.version"
+      android:value="@integer/google_play_services_version" />
+         <meta-data
+     android:name="com.google.android.maps.v2.API_KEY"
+     android:value="AIzaSyCONIPp-kh8y311kx_0jL6DMLKQIsysOpU" />
+
+    </application>
+    
+     <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
