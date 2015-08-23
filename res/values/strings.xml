@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Donation App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+ 
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <!-- Nav Drawer Menu Items 
+    <string-array name="nav_drawer_items">
+        
+        <item >Need Blood</item>
+        <item >Appointments</item>
+        <item >Associates</item>
+        <item >Feedback</item>
+        <item >Suggest</item>
+        <item >Rate</item>
+        <item >Contact</item>
+        <item >Sign Out</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_main</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_2</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_3</item>
+        
+       
+    </array>
+    -->
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+  
+  
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+ 
+    
+    <string name="nav_item_needblood">Need Blood</string>
+    <string name="nav_item_appointments">Appointments</string>
+    <string name="nav_item_associates">Associates</string>
+   
+    <string name="nav_item_suggest">Suggest</string>
+    <string name="nav_item_rate">Rate</string>
+    <string name="nav_item_contact">Contact</string>
+    <string name="nav_item_signout">Sign Out</string>
+    
+ 
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+    
+        <item>@string/nav_item_needblood</item>
+        <item>@string/nav_item_appointments</item>
+        <item>@string/nav_item_associates</item>
+    
+        <item>@string/nav_item_suggest</item>
+        <item>@string/nav_item_rate</item>
+        <item>@string/nav_item_contact</item>
+        <item>@string/nav_item_signout</item>
+    </string-array>
+ 
+    
+    <string name="title_needblood">Need Blood</string>
+    <string name="title_appointments">Appointments</string>
+	<string name="title_associates">Associates</string>
+ 
+	<string name="title_suggest">Suggest</string>
+    <string name="title_rate">Rate</string>
+	<string name="title_contact">Contact</string>
+    <string name="title_signout">Sign Out</string>
+
+    
+</resources>

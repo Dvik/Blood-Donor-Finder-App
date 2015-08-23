@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="frame">#b4b4b4</color>
+    <color name="frame_solid">#eee</color>
+    <color name="frame_background">#bcbcbc</color>
+    <color name="bg_first_screen">#F44336</color>
+    <color name="btn_login">#8A0707</color>
+    <color name="btn_login_bg">#eceef1</color>
+    
+     <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#C62828</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#F44336</color>
+    
+    <color name="text_red"> #F44336 </color>
+    <color name="text_white"> #FFFFFF </color>
+    
+</resources>

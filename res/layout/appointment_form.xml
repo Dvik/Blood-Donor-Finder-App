@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wrapp.example.floatlabelededittext.MainActivity">
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    > 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/form_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Details"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/text_red"
+        android:layout_gravity="center"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textStyle="bold"/>
+
+    	<TextView
+        android:id="@+id/form_appoint_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_red"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Meeting Date"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginBottom="20dp"/>
+			
+        
+    	<TextView
+        android:id="@+id/form_appoint_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_red"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="Meeting Time"
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        
+        <TextView
+        android:id="@+id/form_appoint_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_red"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Meeting Place"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_red"
+       
+        android:orientation="vertical"    
+        >
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+        
+    
+         
+        <EditText
+            android:id="@+id/form_appoint_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:background="@color/text_white"
+            android:hint="State"
+            
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <!-- Login Button -->
+<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+        
+    
+         
+		<EditText
+            android:id="@+id/form_appoint_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/text_white"
+            android:hint="City"
+             android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+		</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+		<com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+        
+    
+         
+		<EditText
+            android:id="@+id/form_appoint_address"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/text_white"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:padding="10dp"
+             android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:textColor="@color/btn_login"
+             />
+</com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <Button
+            android:id="@+id/form_appoint_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="CREATE APPOINTMENT"
+            android:textColor="@color/btn_login" />
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

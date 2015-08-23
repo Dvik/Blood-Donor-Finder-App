@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+ 
+ 
+    <LinearLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        
+        android:background="@color/colorPrimary"
+        android:gravity="left"
+        android:orientation="vertical">
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginTop="30dp"
+        	android:layout_marginLeft="30dp">
+        <ImageButton
+            android:id="@+id/ib1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_profile"
+            android:scaleType="fitCenter"
+            android:layout_gravity="start"
+            android:layout_centerInParent="true" 
+            android:background="@drawable/button_selector"/>
+
+        <TextView
+            android:id="@+id/nav_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divya Vikash"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+             android:textColor="@color/text_white"
+            android:textStyle="normal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        
+        </LinearLayout>
+          
+ 
+    </LinearLayout>
+ 
+ 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="15dp" />
+ 
+ 
+</RelativeLayout>

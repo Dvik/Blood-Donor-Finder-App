@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@color/bg_first_screen">
+
+    <TextView
+        android:id="@+id/adver_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advertise With Us"
+        
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/adver_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        
+        android:text="Just drop in your contact details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+        <EditText
+            android:id="@+id/adver_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_login_bg"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="NAME"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/btn_login"
+            />
+    
+            <EditText
+            android:id="@+id/adver_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_login_bg"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="CONTACT"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/btn_login"
+            
+            />
+         <EditText
+            android:id="@+id/adver_query"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_login_bg"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Any Additional Query"
+            android:padding="10dp"
+            android:lines="4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/btn_login"
+            />
+
+    <Button
+        android:id="@+id/adver_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btn_login_bg"
+        android:textColor="@color/bg_first_screen"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/adver_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanks!"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textStyle="italic"/>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_first_screen"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/share_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Share Via"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+     <Button
+        android:id="@+id/btn_whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:textColor="@color/text_white"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_border_contact_us"
+        android:text="WhatsApp" 
+        
+        />
+   
+    <Button
+        android:id="@+id/btn_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:textColor="@color/text_white"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@drawable/button_border_contact_us"
+        android:text="Twitter" 
+        
+        />
+    
+       <Button
+        android:id="@+id/btn_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:textColor="@color/text_white"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@drawable/button_border_contact_us"
+        android:text="G-Mail" 
+        
+        />
+       
+       
+       <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:textColor="@color/text_white"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@drawable/button_border_contact_us"
+        android:text="Facebook" 
+        
+        />
+    </LinearLayout>
+    
+
+</LinearLayout>

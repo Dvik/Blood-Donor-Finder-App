@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:paddingLeft="15dp"
+   android:paddingRight="15dp"
+   android:paddingTop="15dp"
+   android:descendantFocusability="beforeDescendants"
+   >
+
+<LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="15dp"
+      android:paddingTop="15dp"
+      android:paddingBottom="15dp"
+     
+      android:background="@drawable/selector_card_background"
+     
+      android:descendantFocusability="afterDescendants">
+
+    	<LinearLayout 
+    	    android:orientation="horizontal"
+      		android:layout_width="match_parent"
+      		android:layout_height="wrap_content"
+      	
+    	    >
+      <TextView
+         android:id="@+id/textTitleNeed1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+		 android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text="Divya Vikash"
+         
+       	 android:layout_weight="1"
+         android:layout_gravity="left"
+         android:textStyle="bold"/>
+
+      <TextView
+         android:id="@+id/textTitleNeed6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+		 android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="100 kms"
+       	 android:layout_weight="1"
+         android:textColor= "@color/text_red"
+         android:gravity="right"
+         android:layout_marginRight="10dp"
+         android:textStyle="normal"/>
+      
+      </LinearLayout>
+      <TextView
+         android:id="@+id/textTitleNeed2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textStyle="italic"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="dvikash1001@gmail.com"/>
+      
+      <TextView
+         android:id="@+id/textTitleNeed3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="26 years old Male"
+         />
+      <TextView
+         android:id="@+id/textTitleNeed4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+       
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="887533444"
+         /> 
+      <TextView
+         android:id="@+id/textTitleNeed5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+       	 android:maxLines="3"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="Mansarovar,Jaipur,Rajasthan"
+         />   
+</LinearLayout>
+</FrameLayout>
